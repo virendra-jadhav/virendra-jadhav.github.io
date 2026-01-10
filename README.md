@@ -52,14 +52,14 @@ I’m also the author of a published Ruby gem: **api-hit-logger**, focused on tr
 ---
 
 ## 📂 Repository Structure
-.
-├── index.html
+
+```├── index.html
 ├── styles.css
 ├── script.js
 ├── profile.jpg
 ├── Virendra_Jadhav_Resume.pdf
 └── README.md
-
+```
 
 ---
 
