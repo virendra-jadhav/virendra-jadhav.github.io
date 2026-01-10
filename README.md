@@ -62,14 +62,16 @@ I’m also the author of a published Ruby gem: **api-hit-logger**, focused on tr
 ```
 
 ---
-
+<!---
 ## 🚀 Deployment
 
 This website is deployed using **GitHub Pages**.
 
 - Repository type: User site  
 - Branch: `main`  
-- Deployment: Automatic on every push  
+- Deployment: Automatic on every push
+
+--->
 
 🌐 Live at: https://virendra-jadhav.github.io/
 
@@ -77,7 +79,7 @@ This website is deployed using **GitHub Pages**.
 
 ## 📫 Contact
 
-- **Email:** virenjadhav5143@gmail.com  
+- **Email:** virendrajadhav.dev@gmail.com  
 - **LinkedIn:** https://www.linkedin.com/in/virendra-jadhav-dev  
 - **GitHub:** https://github.com/virendra-jadhav  
 
