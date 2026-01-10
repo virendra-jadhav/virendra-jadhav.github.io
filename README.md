@@ -52,4 +52,36 @@ I’m also the author of a published Ruby gem: **api-hit-logger**, focused on tr
 ---
 
 ## 📂 Repository Structure
+.
+├── index.html
+├── styles.css
+├── script.js
+├── profile.jpg
+├── Virendra_Jadhav_Resume.pdf
+└── README.md
+
+
+---
+
+## 🚀 Deployment
+
+This website is deployed using **GitHub Pages**.
+
+- Repository type: User site  
+- Branch: `main`  
+- Deployment: Automatic on every push  
+
+🌐 Live at: https://virendra-jadhav.github.io/
+
+---
+
+## 📫 Contact
+
+- **Email:** virenjadhav5143@gmail.com  
+- **LinkedIn:** https://www.linkedin.com/in/virendra-jadhav-dev  
+- **GitHub:** https://github.com/virendra-jadhav  
+
+---
+
+⭐ If you’re a recruiter or hiring manager and would like to discuss opportunities, feel free to reach out. Thanks for visiting!
 
