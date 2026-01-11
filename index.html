@@ -92,7 +92,9 @@
 
       My core expertise includes building scalable RESTful APIs, integrating third-party services, optimizing SQL queries, and maintaining clean, reliable backend architecture. Alongside backend work, I collaborate closely with frontend teams using ReactJS and have built personal projects using the MERN stack.
 
-      I’m also the author of a published Ruby gem, api-hit-logger, built to track and log API usage for improved observability and debugging.
+        <br><br>
+      I am also the author of <strong>app_pulse</strong>, a production-safe, open-source Ruby gem for collecting HTTP request lifecycle signals
+      via Rack middleware — designed to run quietly in production without affecting application availability.
     </p>
     
     <div class="about-highlights">
@@ -363,30 +365,52 @@
         <div class="opensource-header">
           <i class="fab fa-ruby ruby-icon"></i>
           <div class="opensource-links">
-            <a href="https://rubygems.org/gems/api_hit_logger" target="_blank" class="btn-external">
+            <a href="https://rubygems.org/gems/app_pulse" target="_blank" class="btn-external">
               <i class="fas fa-external-link-alt"></i> RubyGems
             </a>
-            <a href="https://github.com/chaitanyag1-c/api_hit_logger" target="_blank" class="btn-external">
+            <a href="https://github.com/virendra-jadhav/app_pulse" target="_blank" class="btn-external">
               <i class="fab fa-github"></i> Source Code
             </a>
           </div>
         </div>
-        <h3>api_hit_logger</h3>
-        <p class="opensource-description">
+        <h3>app_pulse</h3>
+        <!-- <p class="opensource-description">
           Rack middleware that automatically logs incoming API requests to CSV files with daily rotation. Useful for debugging, auditing, and monitoring APIs in production or staging environments.
-        </p>
-        <ul class="opensource-features">
+        </p> -->
+         <p class="opensource-description">
+      <strong>app_pulse</strong> is a lightweight, production-safe Ruby gem that tracks HTTP request lifecycle signals using Rack middleware.
+      It stores raw, trustworthy request data in rotating files (CSV / JSON / Text) for offline analysis.
+      <br><br>
+      It is <em>not</em> an APM, optimizer, or dashboard — it is a <strong>signal collector</strong>.
+      Designed to collect data first and derive insights later.
+    </p>
+        <!-- <ul class="opensource-features">
           <li><i class="fas fa-check-circle"></i> CSV log output with headers</li>
           <li><i class="fas fa-check-circle"></i> Daily log rotation support</li>
           <li><i class="fas fa-check-circle"></i> IP normalization & request filtering</li>
           <li><i class="fas fa-check-circle"></i> Safe error capture during logging</li>
-        </ul>
-        <div class="opensource-tech">
+        </ul> -->
+         <ul class="opensource-features">
+      <li><i class="fas fa-check-circle"></i> Tracks request duration, status, and failures</li>
+      <li><i class="fas fa-check-circle"></i> File-based storage with daily rotation</li>
+      <li><i class="fas fa-check-circle"></i> Configurable sampling & slow request thresholds</li>
+      <li><i class="fas fa-check-circle"></i> No database, no Rails internals, no side effects</li>
+      <li><i class="fas fa-check-circle"></i> Compatible with Rails, Rack, Sinatra</li>
+    </ul>
+
+        <!-- <div class="opensource-tech">
           <span>Ruby</span>
           <span>Rack</span>
           <span>Middleware</span>
           <span>Logging</span>
-        </div>
+        </div> -->
+         <div class="opensource-tech">
+      <span>Ruby</span>
+      <span>Rack</span>
+      <span>Middleware</span>
+      <span>Observability</span>
+      <span>Instrumentation</span>
+    </div>
       </div>
     </section>
 
